@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#display {
+    background: url(../Hobby/Pcitures/BackG/Hobby.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#conteiner1 {
+    display: flex;
+    height: 100px;
+}
+
+.items {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.644);
+    flex: 1;
+    height: 10px;
+    width: auto;
+    font-size: 130%;
+}
+
+#title1 {
+    flex: 10;
+    height: 30px;
+    width: 55px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 170%;
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.box {
+    display: flex;
+    margin: 15px 0px;
+    height: 16%;
+    /* border: solid white 1px; */
+    align-items: center;
+    color: aliceblue;
+}
+
+.nestedBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 9;
+}
+
+.icons {
+    height: 100%;
+    flex: 3;
+    margin-left: 50px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 150%;
+    width: 1222px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .link1 {
+    color: rgba(240, 248, 255, 0.192);
+    font-family: italic;
+}
+
+.films {
+    color: rgba(240, 248, 255, 0.192);
+    font-family: italic;
+}
+
+.cars {
+    color: rgba(240, 248, 255, 0.192);
+} */
+
+.items1 {
+    color: rgba(220, 221, 223, 0.288);
+}
